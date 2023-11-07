@@ -1,0 +1,199 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-1{
+    width: 60%;
+}
+.col-2{
+    width: 40%;
+    margin-top: 1%;
+}
+.search{
+    width: 75%;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+img{
+    width: 100%;
+}
+
+.search input[type="text"]{width: 95%;
+    height: 30px;
+    margin-top: 1.5%;
+    border-radius: 2px;
+    border-radius: 2px;
+    border-color: transparent;
+    background-color: #f0f5ff;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 5%;
+    background-position-x: 1%;
+    background-size: 20px 20px;
+    
+background-image: url(https://cdn-icons-png.flaticon.com/128/54/54481.png)
+
+
+}
+   
+ul li{
+    list-style: none;   
+}
+
+.col-2 ul li{
+    display: inline-block;
+    margin: 0px 10px;
+    font-weight: 100;
+    font-family:'Poppins', sans-serif ;
+    font-size: medium;
+    color:#6c6e70;
+}
+
+.col-2 ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align:center;
+}
+
+#main body{
+    margin: 0%  1%;
+}
+#section-1{
+    background-color: #e6edfe;
+    margin-top: 1%;
+    padding: 1%;
+}
+#section-1 .product{
+    display: inline-block;
+    width: 9%;
+    text-align: center;
+    margin-left: 6px;
+
+}
+#section-1 .product img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+#section-1 h4{
+    margin-top: 8px;
+    color: #000;
+    font-weight: 300;
+    font-size: smaller;
+}
+
+#section-1 .product desc{
+    text-size-adjust: 30px;
+}
+
+#banner-1{
+    margin-top: 1%;
+}
+
+#banner-2{
+    margin-top: 1%;
+}
+
+#picture-banner{
+    margin-top: 1%;
+}
+#picture-banner .picture{
+    display: inline-block;
+    width: 30%;
+    margin-left: 35px;
+}
+
+#section-2{
+    background-color: #e6edfe;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+#section-2  h2{
+    margin-left: 1.5em;
+    margin-bottom: 10px;
+}
+#section-2  .Mobiles{
+    background-color: #f0f5ff;
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    margin: 1% 2.2%;
+    border-radius: 2%;
+    position: relative;
+}
+#section-2 .Mobiles img {
+    width :96%;
+}
+
+#section-2   h3{
+    margin-top: 10px;
+    color: #000;
+    font: 1em sans-serif;
+    font-size: small;
+}
+
+#section-2  h4{
+    color: #000;
+    font-size: small;
+}
+
+.Mobiles  .wishlist{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    color: red;
+    display: none;
+}
+.Mobiles:hover .wishlist{
+    display: block;
+}
+.Mobiles  .addtc{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 0px;
+    display: none;
+}
+.Mobiles  .addtc button{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    width: 100%;
+}
+
+.Mobiles:hover  .addtc{
+    display: block;
+}
+
